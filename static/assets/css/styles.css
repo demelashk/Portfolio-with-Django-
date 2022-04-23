@@ -189,7 +189,7 @@ img{
     align-self: flex-end;
     font-size: var(--big-font-size);
     color: var(--white-color);
-    line-height: .8;
+    line-height: .6;
 }
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
