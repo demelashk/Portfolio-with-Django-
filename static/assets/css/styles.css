@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root{
     --header-height: 3rem;
-    --font-medium: 500;
+    --font-medium: 200;
 }
 
 /*===== Colores =====*/
@@ -18,8 +18,8 @@
 /*===== Fuente y tipografia =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
-    --big-font-size: 6.25rem;
-    --h2-font-size: 1.25rem;
+    --big-font-size: 5.25rem;
+    --h2-font-size: 1.00rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
 }
@@ -187,7 +187,7 @@ img{
 }
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: 80px;
     color: var(--white-color);
     line-height: .6;
 }
@@ -214,14 +214,15 @@ img{
 .about__container{
     justify-items: center;
     row-gap: 2rem;
+    margin-top: 0%;
     text-align: center;
 }
 .about__img{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
@@ -251,7 +252,7 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 .skills__subtitle{
     color: var(--first-color);
